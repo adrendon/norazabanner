@@ -3,6 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>NO RAZA - South American Death Metal</title>
+<style>
+	html, body {
+    	max-width: 100%;
+    	overflow-x: hidden;
+	}
+</style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="banner.js"></script>
 <script>
@@ -35,10 +41,9 @@ function handleComplete(evt) {
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
 }
-
 </script>
 </head>
 <body onload="init();" style="background-color:#FFFFFF;margin:0px;">
-	<canvas id="canvas" width="468" height="60" style="background-color:#FFFFFF"></canvas>
+	<a href="http://www.norazametal.com/" target="_blank" title="NO RAZA - South American Death Metal"><canvas id="canvas" width="468" height="60" style="background-color:#FFFFFF"></canvas></a>
 </body>
 </html>
